@@ -1,0 +1,159 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.png" />
+    <None Remove="3d-modeling %282%29.png" />
+    <None Remove="3d-modeling %283%29.png" />
+    <None Remove="backboardSize.png" />
+    <None Remove="ball.png" />
+    <None Remove="ball3.png" />
+    <None Remove="ball5.png" />
+    <None Remove="ball6.png" />
+    <None Remove="ball7.png" />
+    <None Remove="ballTypes.png" />
+    <None Remove="basket.png" />
+    <None Remove="basketGray.png" />
+    <None Remove="basketSize.png" />
+    <None Remove="calculateMouseOver.png" />
+    <None Remove="calculateOrdinary.png" />
+    <None Remove="calculateSelected.png" />
+    <None Remove="control.png" />
+    <None Remove="detailsMouseOver.png" />
+    <None Remove="detailsOrdinary.png" />
+    <None Remove="detailsSelected.png" />
+    <None Remove="field.png" />
+    <None Remove="fieldSize.png" />
+    <None Remove="graph.png" />
+    <None Remove="graphImage.png" />
+    <None Remove="hFormula.png" />
+    <None Remove="hit3.png" />
+    <None Remove="hit5.png" />
+    <None Remove="hit6.png" />
+    <None Remove="hit7.png" />
+    <None Remove="info.png" />
+    <None Remove="infoMouseOver.png" />
+    <None Remove="infoOrdinary.png" />
+    <None Remove="infoSelected.png" />
+    <None Remove="input.png" />
+    <None Remove="lFormula.png" />
+    <None Remove="logo.png" />
+    <None Remove="logo2.png" />
+    <None Remove="output.png" />
+    <None Remove="Resources\1.png" />
+    <None Remove="Resources\1.svg" />
+    <None Remove="Resources\backboardSize.png" />
+    <None Remove="Resources\ball.ico" />
+    <None Remove="Resources\ball.png" />
+    <None Remove="Resources\ball3.png" />
+    <None Remove="Resources\ball5.png" />
+    <None Remove="Resources\ball6.png" />
+    <None Remove="Resources\ball7.png" />
+    <None Remove="Resources\ballTypes.png" />
+    <None Remove="Resources\basket.png" />
+    <None Remove="Resources\basketGray.png" />
+    <None Remove="Resources\basketSize.png" />
+    <None Remove="Resources\calculateMouseOver.png" />
+    <None Remove="Resources\calculateOrdinary.png" />
+    <None Remove="Resources\calculateSelected.png" />
+    <None Remove="Resources\control.png" />
+    <None Remove="Resources\detailsMouseOver.png" />
+    <None Remove="Resources\detailsOrdinary.png" />
+    <None Remove="Resources\detailsSelected.png" />
+    <None Remove="Resources\edit.png" />
+    <None Remove="Resources\field.png" />
+    <None Remove="Resources\fieldSize.png" />
+    <None Remove="Resources\graph.png" />
+    <None Remove="Resources\graphImage.png" />
+    <None Remove="Resources\hFormula.png" />
+    <None Remove="Resources\hit3.png" />
+    <None Remove="Resources\hit5.png" />
+    <None Remove="Resources\hit6.png" />
+    <None Remove="Resources\hit7.png" />
+    <None Remove="Resources\info.png" />
+    <None Remove="Resources\infoMouseOver.png" />
+    <None Remove="Resources\infoOrdinary.png" />
+    <None Remove="Resources\infoSelected.png" />
+    <None Remove="Resources\input.png" />
+    <None Remove="Resources\lFormula.png" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\logo2.png" />
+    <None Remove="Resources\modeling.png" />
+    <None Remove="Resources\output.png" />
+    <None Remove="Resources\ringSize.png" />
+    <None Remove="Resources\size.png" />
+    <None Remove="Resources\sizeGray.png" />
+    <None Remove="Resources\staples.png" />
+    <None Remove="Resources\system1.png" />
+    <None Remove="Resources\system2.png" />
+    <None Remove="Resources\system3.png" />
+    <None Remove="Resources\tFormula.png" />
+    <None Remove="Resources\trajectory.png" />
+    <None Remove="Resources\trajectoryGray.png" />
+    <None Remove="ringSize.png" />
+    <None Remove="size.png" />
+    <None Remove="sizeGray.png" />
+    <None Remove="staples.png" />
+    <None Remove="system1.png" />
+    <None Remove="system2.png" />
+    <None Remove="system3.png" />
+    <None Remove="tFormula.png" />
+    <None Remove="trajectory.png" />
+    <None Remove="trajectoryGray.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\ball3.png" />
+    <Resource Include="Resources\ball5.png" />
+    <Resource Include="Resources\ball6.png" />
+    <Resource Include="Resources\ball7.png" />
+    <Resource Include="Resources\field.png" />
+    <Resource Include="Resources\fieldSize.png" />
+    <Resource Include="Resources\hit3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\backboardSize.png" />
+    <Resource Include="Resources\ball.ico" />
+    <Resource Include="Resources\ball.png" />
+    <Resource Include="Resources\basket.png" />
+    <Resource Include="Resources\basketGray.png" />
+    <Resource Include="Resources\basketSize.png" />
+    <Resource Include="Resources\calculateMouseOver.png" />
+    <Resource Include="Resources\calculateOrdinary.png" />
+    <Resource Include="Resources\calculateSelected.png" />
+    <Resource Include="Resources\detailsMouseOver.png" />
+    <Resource Include="Resources\detailsOrdinary.png" />
+    <Resource Include="Resources\detailsSelected.png" />
+    <Resource Include="Resources\graph.png" />
+    <Resource Include="Resources\hit5.png" />
+    <Resource Include="Resources\hit6.png" />
+    <Resource Include="Resources\hit7.png" />
+    <Resource Include="Resources\info.png" />
+    <Resource Include="Resources\infoMouseOver.png" />
+    <Resource Include="Resources\infoOrdinary.png" />
+    <Resource Include="Resources\infoSelected.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\logo2.png" />
+    <Resource Include="Resources\ringSize.png" />
+    <Resource Include="Resources\size.png" />
+    <Resource Include="Resources\sizeGray.png" />
+    <Resource Include="Resources\staples.png" />
+    <Resource Include="Resources\trajectory.png" />
+    <Resource Include="Resources\trajectoryGray.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="style.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>
